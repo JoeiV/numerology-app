@@ -4,18 +4,20 @@ production:
 
 development:
   adapter: postgresql
+  encoding: unicode 
   database: numerology_development
   pool: 5
-  host: localhost
   username: codio
   password: 
+  host: localhost
   template: template0
     
 test:
   adapter: postgresql
+  encoding: unicode 
   database: numerology_test
   pool: 5
-  host: localhost
   username: codio
   password: 
+  host: localhost
   template: template0
